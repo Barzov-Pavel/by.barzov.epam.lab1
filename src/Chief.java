@@ -1,13 +1,9 @@
-import dishes.Dish;
-import dishes.Salad;
+import dishes.*;
 import factory.*;
-import ingredients.CalorieIngredients;
-import ingredients.Ingredient;
+import ingredients.*;
 
-import java.util.ArrayList;
-import java.util.InputMismatchException;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
+
 
 public class Chief {
     private String name;
@@ -81,7 +77,7 @@ public class Chief {
         }
     }
 
-    public void showOptions() {
+    public void showMenu() {
         Scanner scanner = new Scanner(System.in);
         int choice = -1;
 

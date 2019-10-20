@@ -1,11 +1,9 @@
 package factory;
 
-import dishes.Salad;
-import dishes.Salads;
+import dishes.*;
 import ingredients.*;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class HedgehogFactory implements SaladFactory {
     @Override

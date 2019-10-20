@@ -1,11 +1,9 @@
 package dishes;
 
-import comparators.CalorieFilter;
-import comparators.CalorieComparator;
+import comparators.*;
 import ingredients.Ingredient;
 
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class Salad extends Dish {
     private Salads name;

@@ -1,7 +1,6 @@
 package factory;
 
-import dishes.Salad;
-import dishes.Salads;
+import dishes.*;
 import ingredients.*;
 
 import java.util.*;
