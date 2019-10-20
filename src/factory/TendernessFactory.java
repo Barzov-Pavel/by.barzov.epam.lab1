@@ -31,8 +31,6 @@ public class TendernessFactory implements SaladFactory {
         ingredientList.add(mayonnaise);
         ingredientList.add(salt);
 
-        Salad tenderness = new Salad(Salads.TENDERNESS, ingredientList);
-
-        return tenderness;
+        return new Salad(Salads.TENDERNESS, ingredientList);
     }
 }

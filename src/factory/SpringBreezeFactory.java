@@ -31,8 +31,6 @@ public class SpringBreezeFactory implements SaladFactory {
         ingredientList.add(mayonnaise);
         ingredientList.add(greens);
 
-        Salad springBreeze = new Salad(Salads.SPRING_BREEZE, ingredientList);
-
-        return springBreeze;
+        return new Salad(Salads.SPRING_BREEZE, ingredientList);
     }
 }

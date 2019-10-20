@@ -30,8 +30,6 @@ public class HedgehogFactory implements SaladFactory {
         ingredientList.add(garlic);
         ingredientList.add(mayonnaise);
 
-        Salad hedgehog = new Salad(Salads.HEDGEHOG, ingredientList);
-
-        return hedgehog;
+        return new Salad(Salads.HEDGEHOG, ingredientList);
     }
 }

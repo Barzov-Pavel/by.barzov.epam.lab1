@@ -31,7 +31,6 @@ public class VeniceFactory implements SaladFactory {
         ingredientList.add(cannedCorn);
         ingredientList.add(mayonnaise);
 
-        Salad venice = new Salad(Salads.VENICE, ingredientList);
-        return venice;
+        return new Salad(Salads.VENICE, ingredientList);
     }
 }
